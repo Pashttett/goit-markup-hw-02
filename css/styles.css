@@ -13,6 +13,7 @@ body {
 a {
   text-decoration: none;
 }
+
 /* Components */
 .modal-button {
   font-family: 'Roboto', sans-serif;
@@ -65,6 +66,12 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-min);
+}
+.studio-dark {
+  color: var(--color-primary);
+}
+.studio-white {
+  color: var(--color-white);
 }
 
 .list {
@@ -133,4 +140,5 @@ a {
 }
 .footter-list {
   color: var(--color-white);
+  background-color: #2e2f42;
 }
