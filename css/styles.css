@@ -50,7 +50,7 @@ a {
   letter-spacing: 0.04em;
   align-items: center;
   color: var(--color-min);
-  border: 2px solid var(--brand-color);
+  border: 2px solid var(--color-brand);
   border-radius: 2px;
   margin: 0 auto;
   cursor: pointer;
