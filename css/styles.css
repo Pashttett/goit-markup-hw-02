@@ -12,6 +12,11 @@ body {
 }
 a {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary);
 }
 
 /* Components */
@@ -39,16 +44,16 @@ a {
 }
 
 .label-menu {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   align-items: center;
   color: var(--color-min);
   border: 2px solid var(--brand-color);
   border-radius: 2px;
   margin: 0 auto;
+  cursor: pointer;
 }
 .label-menu:hover,
 .modal-button:focus {
@@ -57,7 +62,7 @@ a {
 }
 /* /Components */
 .logotype {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -76,30 +81,39 @@ a {
 
 .list {
   list-style: none;
+}
+.caption-list {
   font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
+}
+.text-list {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.71;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-secondary);
 }
 .menu-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 71;
+  line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--color-primary);
+  color: #2e2f42;
 }
 .menu-link:hover,
 .menu-link:focus {
   color: var(--color-brand);
 }
 .contact-phone-number {
-  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.02em;
   color: var(--color-secondary);
 }
@@ -109,8 +123,6 @@ a {
   color: var(--color-brand);
 }
 .hero-title {
-  font-family: 'Roboto';
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -119,15 +131,12 @@ a {
   text-align: center;
 }
 .title-work {
-  font-family: 'Roboto';
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .title-team {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -140,5 +149,5 @@ a {
 }
 .footter-list {
   color: var(--color-white);
-  background-color: #2e2f42;
+  background-color: var(--color-primary);
 }
